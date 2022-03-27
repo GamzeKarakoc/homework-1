@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+    background-color: #f4f2fa;
+
+}
+
+#search-box {
+    width: 640px;
+    height: 464px;
+    background-color: #ffffff;
+    border-radius: 24px;
+    padding: 72px;
+    box-shadow: 0px 14px 52px -20px #8675B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ 
+.button{
+    width: 136px;
+    height: 56px;
+    background-color: #281A51;
+    color: #F7F4FF;
+    border-radius: 4px;
+    padding: 16px;
+    margin-top: 72px;
+    margin-right: 72px;
+    gap: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.material-icons-outlined{
+position: static;
+width: 22px;
+height: 22px;
+left: 16px;
+top: 17px;
+
+}
+.search{
+    width: 348px;
+    height: 56px;
+    margin-left: 72px;
+    margin-top: 72px;
+    gap: 10px; 
+    border: 1px solid #DBD5EC;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+.text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+     }
+/* -------------------------------------------------buton kısmı------------------------------------------------------------------------------- */
+.container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 72px;
+   
+}
+
+.btn{
+    width: 112px;
+    height: 108px;
+    border-radius: 8px;  
+    border-style: none;
+}
+/* -----------------------------BUTON1------------------------------------------------------ */
+.btn-1{
+    background-color: #FFECEC; 
+}
+.btn-1:hover{
+    border:1px solid#FFECEC;
+    box-sizing: border-box;
+    box-shadow:0px 14px 16px
+     #FFECEC;
+     background-color: #FFFFFF;
+}
+
+/* -------------------------------BUTON2------------------------------------------------------ */
+
+.btn-2{
+    background: #F7ECFF;
+}
+.btn-2:hover{
+    border: 1px solid  #F7ECFF;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px
+    #F7ECFF;
+}
+/* ---------------------------------BUTON3------------------------------------------------------ */
+.btn-3{
+    background-color: #ECF0FF;
+}
+
+.btn-3:hover{
+    border: 1px solid #ECF0FF;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px
+    #ECF0FF;
+}
+/* ---------------------------------BUTON4------------------------------------------------------------ */
+.btn-4{
+    background-color: #D7F9F3;
+}
+.btn-4:hover{
+    border: 1px solid #D7F9F3;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px 
+    #D7F9F3;
+}
+/* ---------------------------------BUTON5------------------------------------------------------------------ */
+.btn-5{
+    background-color: #E2FFD4;
+}
+.btn-5:hover{
+    border: 1px solid#E2FFD4;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px 
+    #E2FFD4;
+}
+/* ---------------------------------BUTON6------------------------------------------------------------------- */
+.btn-6{
+    background-color: #DBD5EC;
+}
+.btn-6:hover{
+    border: 1px solid#DBD5EC;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px
+    #DBD5EC;
+}
+/* --------------------------------BUTON7--------------------------------------------------------------------- */
+.btn-7{
+    background-color: #FFF3C9;
+}
+.btn-7:hover{
+    border: 1px solid#FFF3C9;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px #FFF3C9;
+}
+/* --------------------------------BUTON8--------------------------------------------------------------------- */
+.btn-8{
+background-color: #FFD9C9;
+}
+.btn-8:hover{
+    border: 1px solid #FFD9C9;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 14px 16px #FFD9C9;
+}
+
+.rectangle{
+Width:421px;
+Height:713px;
+border-radius: 31px;
+background-color: #ece9fa;
+position: absolute;
+z-index: -1;
+}
